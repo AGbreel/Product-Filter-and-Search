@@ -1,0 +1,33 @@
+/* XSmall */
+@media screen and (min-width: 470px) {
+    .wrapper #products {
+        grid-template-columns: auto auto ;
+    }
+
+    .wrapper .search-container button {
+        width: 100px;
+    }
+}
+
+/* Small */
+@media screen and (min-width: 640px) {
+    .wrapper #products {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+/* Medium */
+@media screen and (min-width: 868px) {}
+
+/* Large */
+@media screen and (min-width: 1024px) {
+    .wrapper #products {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+/* XLarge */
+@media screen and (min-width: 1280px) {}
+
+/* 2XLarge*/
+@media screen and (min-width: 1536px) {}
